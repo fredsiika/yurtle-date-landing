@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
+    title: `Yurtle Dating for Anime Nerds`,
+    description: `The dating app designed by anime nerds for anime nerds.`,
     author: `@gillkyle`,
     siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
   },

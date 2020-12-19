@@ -7,8 +7,8 @@ import { COLORS } from "../styles/constants"
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Minimal Features"
-      description="Don't spend time ripping out unneeded plugins and bloat."
+      title="The dating app built by anime nerds for anime nerds"
+      description="Get out and do something with someone who shares a common interest!"
     />
     <content
       style={{
@@ -19,10 +19,10 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
+        <h3>No more meanlingless chats with strangers.
+        </h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
+          Finally, a dating app where you'll find someone nerdier than you.<br />
         </p>
       </div>
       <div>

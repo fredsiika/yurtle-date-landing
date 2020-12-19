@@ -26,10 +26,13 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <h1 style={{ textAlign: "center" }}>
+      Love anime?
+      <br />Don't settle for a partner who doesn't.
+    </h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+      <span style={{ fontWeight: 'bold' }}>We get it.</span> You like watching anime, reading manga, and even going to cosplay conventions.<br />
+      Stop wasting your time on other dating apps.
     </p>
     <Button>Get Early Access</Button>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
@@ -57,7 +60,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Yurtle - Anime Dating`,
 }
 
 export default Header
